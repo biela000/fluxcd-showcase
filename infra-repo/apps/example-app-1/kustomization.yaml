@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   interval: 15m
-  path: "./kubernetes/fluxcd/repositories/example-app-1/deploy"
+  path: "./example-app-1/deploy"
   prune: true
   sourceRef:
     kind: GitRepository
-    name: example-app-1
+    name: fluxcd-showcase
